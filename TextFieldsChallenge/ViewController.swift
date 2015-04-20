@@ -33,7 +33,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         cashTextField.placeholder = "Type your $ amount"
         cashTextField.clearButtonMode = UITextFieldViewMode.Always
-        cashTextField.keyboardType = UIKeyboardType.NumberPad
+        cashTextField.keyboardType = UIKeyboardType.DecimalPad
         
         lockableTextField.placeholder = "Make sure switch is ON to type text"
         lockableTextField.clearButtonMode = UITextFieldViewMode.Always
