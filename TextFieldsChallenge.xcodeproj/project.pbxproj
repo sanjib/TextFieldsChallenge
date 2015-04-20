@@ -15,7 +15,6 @@
 		209702CE1AE4F1C400C2C5E0 /* TextFieldsChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209702CD1AE4F1C400C2C5E0 /* TextFieldsChallengeTests.swift */; };
 		209702DA1AE4F6B900C2C5E0 /* ZipTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209702D91AE4F6B900C2C5E0 /* ZipTextFieldDelegate.swift */; };
 		209702DC1AE4F6FB00C2C5E0 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209702DB1AE4F6FB00C2C5E0 /* CashTextFieldDelegate.swift */; };
-		209702DE1AE4F83800C2C5E0 /* LockableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209702DD1AE4F83800C2C5E0 /* LockableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		209702CD1AE4F1C400C2C5E0 /* TextFieldsChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsChallengeTests.swift; sourceTree = "<group>"; };
 		209702D91AE4F6B900C2C5E0 /* ZipTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZipTextFieldDelegate.swift; path = TextFieldDelegates/ZipTextFieldDelegate.swift; sourceTree = "<group>"; };
 		209702DB1AE4F6FB00C2C5E0 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CashTextFieldDelegate.swift; path = TextFieldDelegates/CashTextFieldDelegate.swift; sourceTree = "<group>"; };
-		209702DD1AE4F83800C2C5E0 /* LockableTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LockableTextFieldDelegate.swift; path = TextFieldDelegates/LockableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 			children = (
 				209702D91AE4F6B900C2C5E0 /* ZipTextFieldDelegate.swift */,
 				209702DB1AE4F6FB00C2C5E0 /* CashTextFieldDelegate.swift */,
-				209702DD1AE4F83800C2C5E0 /* LockableTextFieldDelegate.swift */,
 			);
 			name = TextFieldDelegates;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 				209702DC1AE4F6FB00C2C5E0 /* CashTextFieldDelegate.swift in Sources */,
 				209702BA1AE4F1C400C2C5E0 /* ViewController.swift in Sources */,
 				209702B81AE4F1C400C2C5E0 /* AppDelegate.swift in Sources */,
-				209702DE1AE4F83800C2C5E0 /* LockableTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
