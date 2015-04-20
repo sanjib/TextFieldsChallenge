@@ -53,6 +53,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldClear(textField: UITextField) -> Bool {
         return lockSwitch.on
     }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if (lockSwitch.on) {
+            lockableTextField.resignFirstResponder()
+            lockSwitch.setOn(false, animated: true)
+            return true
+        } else {
+            return false
+        }
+    }
 
 }
 
