@@ -12,13 +12,13 @@ import UIKit
 class ZipTextFieldDelegate: NSObject, UITextFieldDelegate {
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        var newText = textField.text as NSString
-        newText = newText.stringByReplacingCharactersInRange(range, withString: string)
-//        println(newText)
-        if newText.length >= 6 {
-            return false
-        } else {
-            return true
+        if string.toInt() != nil || range.length==1 {
+            var newText = textField.text as NSString
+            newText = newText.stringByReplacingCharactersInRange(range, withString: string)
+            if newText.length < 6 {
+                return true
+            }
         }
+        return false
     }
 }
