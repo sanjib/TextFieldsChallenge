@@ -42,6 +42,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         lockSwitch.setOn(false, animated: false)
     }
     
+    @IBAction func toggleLockSwitch(sender: UISwitch) {
+        if sender.on == false {
+            lockableTextField.endEditing(false)
+        }
+    }
+    
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         return lockSwitch.on
     }
