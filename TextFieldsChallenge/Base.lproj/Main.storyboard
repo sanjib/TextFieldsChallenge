@@ -34,6 +34,9 @@
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QG1-ZR-EAP">
                                 <rect key="frame" x="535" y="104" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggleLockSwitch:" destination="vXZ-lx-hvc" eventType="valueChanged" id="jWe-vx-IyR"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -51,6 +54,12 @@
                             <constraint firstItem="4x7-KK-ggK" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="tVJ-5r-c8R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cashTextField" destination="wzl-s9-7z3" id="C3z-jB-KbV"/>
+                        <outlet property="lockSwitch" destination="QG1-ZR-EAP" id="Qyn-OI-qnA"/>
+                        <outlet property="lockableTextField" destination="SHs-y9-NIs" id="d1G-Nu-qTJ"/>
+                        <outlet property="zipTextField" destination="4x7-KK-ggK" id="4Ng-Z6-SEf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
