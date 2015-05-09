@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         if (lockSwitch.on) {
-            lockableTextField.resignFirstResponder()
+            lockableTextField.endEditing(true)
             lockSwitch.setOn(false, animated: true)
             return true
         } else {
