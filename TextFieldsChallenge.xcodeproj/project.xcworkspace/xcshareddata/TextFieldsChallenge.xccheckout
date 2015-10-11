@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>432E3FB3-1869-4939-9C76-A28BE8B4AF23</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TextFieldsChallenge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>92DCCA1DD2687D3B1BB1B0CF2B58444C15B44847</key>
+		<string>https://github.com/sanjibahmad/TextFieldsChallenge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TextFieldsChallenge.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92DCCA1DD2687D3B1BB1B0CF2B58444C15B44847</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sanjibahmad/TextFieldsChallenge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>92DCCA1DD2687D3B1BB1B0CF2B58444C15B44847</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92DCCA1DD2687D3B1BB1B0CF2B58444C15B44847</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TextFieldsChallenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
